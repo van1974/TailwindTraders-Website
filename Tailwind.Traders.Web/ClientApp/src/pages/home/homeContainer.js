@@ -1,9 +1,9 @@
 import React, { Component, Fragment } from "react";
 import { connect } from 'react-redux';
-import Electrical from "../../assets/images/home_electrical.jpg";
-import Garden from "../../assets/images/home_gardencenter.jpg";
-import Plumbing from "../../assets/images/home_plumbing.jpg";
-import Powertools from "../../assets/images/home_powertools.jpg";
+import Electrical from "../../assets/images/displays.jpg";
+import Garden from "../../assets/images/charger.jpg";
+import Plumbing from "../../assets/images/cable.jpg";
+import Powertools from "../../assets/images/controller.jpg";
 import { ProductService } from "../../services";
 import Home from "./home";
 
@@ -15,28 +15,28 @@ class HomeContainer extends Component {
             ],
             defaultProducts: [
                 {
-                    title: "Power Tools",
-                    imageUrl: Powertools,
+                    title: "Displays",
+                    imageUrl: Displays,
                     cssClass: "grid__item-a",
-                    url: "/list/diytools"
+                    url: "/"
                 },
                 {
-                    title: "Plumbing",
-                    imageUrl: Plumbing,
+                    title: "Chargers",
+                    imageUrl: Chargers,
                     cssClass: "grid__item-b",
-                    url: "/list/kitchen"
+                    url: "/"
                 },
                 {
-                    title: "Electrical",
-                    imageUrl: Electrical,
+                    title: "Cables",
+                    imageUrl: Cables,
                     cssClass: "grid__item-c",
-                    url: "/list/home"
+                    url: "/"
                 },
                 {
-                    title: "Garden Center",
-                    imageUrl: Garden,
+                    title: "Controllers",
+                    imageUrl: Controllers,
                     cssClass: "grid__item-d",
-                    url: "/list/gardening"
+                    url: "/"
                 }
             ],
             popularProducts: [],
