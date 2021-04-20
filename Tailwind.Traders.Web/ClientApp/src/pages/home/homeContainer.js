@@ -1,9 +1,9 @@
 import React, { Component, Fragment } from "react";
 import { connect } from 'react-redux';
-import Electrical from "../../assets/images/displays.jpg";
-import Garden from "../../assets/images/charger.jpg";
-import Plumbing from "../../assets/images/cable.jpg";
-import Powertools from "../../assets/images/controller.jpg";
+import Displays from "../../assets/images/displays.jpg";
+import Chargers from "../../assets/images/charger.jpg";
+import Cables from "../../assets/images/cable.jpg";
+import Controllers from "../../assets/images/controller.jpg";
 import { ProductService } from "../../services";
 import Home from "./home";
 
