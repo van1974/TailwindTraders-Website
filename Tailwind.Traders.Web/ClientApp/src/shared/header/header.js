@@ -105,25 +105,25 @@ class Header extends Component {
                             <Logo />
                         </Link>
                         <nav className={this.state.isopened ? 'main-nav is-opened' : 'main-nav'}>
-                            <Link className="main-nav__item" to="/list/homeappliances">
+                            <Link className="main-nav__item" to="/">
                                 {t('shared.header.homeAppliances')}
                             </Link>
-                            <Link className="main-nav__item" to="/list/sink">
+                            <Link className="main-nav__item" to="/">
                                 {t('shared.header.sink')}
                             </Link>
-                            <Link className="main-nav__item" to="/list/home">
+                            <Link className="main-nav__item" to="/">
                                 {t('shared.header.home')}
                             </Link>
-                            <Link className="main-nav__item" to="/list/gardening">
+                            <Link className="main-nav__item" to="/">
                                 {t('shared.header.gardening')}
                             </Link>
-                            <Link className="main-nav__item" to="/list/decor">
+                            <Link className="main-nav__item" to="/">
                                 {t('shared.header.decor')}
                             </Link>
-                            <Link className="main-nav__item" to="/list/kitchen">
+                            <Link className="main-nav__item" to="/">
                                 {t('shared.header.kitchen')}
                             </Link>
-                            <Link className="main-nav__item" to="/list/diytools">
+                            <Link className="main-nav__item" to="/">
                                 {t('shared.header.diytools')}
                             </Link>
                             <div className="main-nav__actions">
